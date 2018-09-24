@@ -3,13 +3,14 @@ var workspace = document.querySelector("content");
 
 
 function scene1(){
-    alert("Welcome to the default app!!!")
+    scene1 = document.querySelector("#scene1");
+    scene1.classList.remove("hidden");
 }
 function load(){
     var loadProgress = document.querySelector("#loadProgressBar");
     var i = 100;
     function showLoadProgress(){
-        loadProgress.style.background = "linear-gradient(to left, white " + i + "%, black " + i + "%)";
+        loadProgress.style.background = "linear-gradient(to left, black " + i + "%, white " + i + "%)";
         loadProgress.style.opacity = i / 100;
         i = i - 2;
         if(i < 0){

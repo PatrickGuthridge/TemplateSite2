@@ -3,13 +3,25 @@
      opacity: 0;
  }
 }
+body{
+    background: black;
+}
 #loadProgressBar{
     width: 30%;
     height: 1px;
-    background: white;
+    background: black;
     position: fixed;
     bottom: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     animation: fadeIn 0.5s ease-in;
+}
+.hidden{
+    display: none;
+}
+#mainTitle{
+    animation: fadeIn 1s;
+}
+#scene1{
+    transition: opacity 1s;
 }
