@@ -1,0 +1,17 @@
+{
+    "name": "fonts",
+    "version": 0.1,
+    "description": "fonts for survey",
+    "styles": [
+        {
+            "name": "fonts",
+            "src": "https://fonts.googleapis.com/css?family=Raleway:100,300,400",
+            "createURL": true
+        },
+        {
+            "name": "default",
+            "src": "style.css",
+            "createURL": true
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "content",
+    "workspace": "content",
+    "version": 0.1,
+    "description": "main content for survey",
+    "styles": [
+        {
+            "name": "style",
+            "src": "content.css",
+            "createURL": false
+        }
+    ],
+    "scripts": [
+        {
+            "name": "content",
+            "src": "content.js"
+        }
+    ],
+    "html": {
+        "src": "content.html"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Dr. Scott Arnold.",
+    "version": 0.1,
+    "description": "",
+    "components": [
+        "components/fonts/component.json",
+        "components/content/component.json"
+    ]
+}
